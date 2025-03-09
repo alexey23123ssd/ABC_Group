@@ -1,0 +1,121 @@
+.main__section-welcome{
+    background: url(/img/rain_bk2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+
+.section-welcome__text{
+    color:#FFFFFF;
+    font-family: "PT Serif",sans-serif;    
+    font-size: 18px;
+    line-height: 23.85px;
+    letter-spacing: 5%;
+    text-align: center;
+    margin:18px 0;
+}
+
+.section-welcome__title{
+    color:#FFC700;
+    font-size: 30px;
+    line-height: 34.65px;
+    letter-spacing: 3%;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.section-welcome__img{
+    width: 150px;
+    height: auto;
+}
+
+.section-welcome__appeal{
+    font-family: "PT Serif",sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 5%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.section-welcome__appeal_yellow{
+    color:#FFC700;  
+}
+
+.section-welcome__info{
+    font-family: "PT Serif",sans-serif;
+    font-size: 8px;
+    line-height: 10.6px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+@media (min-width:768px){
+    .section-welcome__text{ 
+        font-size: 22px;
+        margin:21px 0;
+    }
+
+    .section-welcome__title{
+        font-size: 34px;
+    }
+
+    .section-welcome__img{
+        width: 300px;
+    }
+    
+    .section-welcome__appeal{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+
+    .section-welcome__arrow{
+        width: 25px;
+        margin-bottom: 5px;
+    }
+
+    .section-welcome__info{
+        font-size: 12px;
+        line-height: 14.6px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:1024px){
+    .section-welcome__text{
+        font-size: 26px;
+        margin:31px 0;
+    }
+
+    .section-welcome__title{
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .section-welcome__img{
+        width: 400px;
+    }
+
+    .section-welcome__appeal{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .section-welcome__arrow{
+        width: 35px;
+        margin-bottom: 5px;
+    }
+
+    .section-welcome__info{
+        font-size: 16px;
+    }
+}
