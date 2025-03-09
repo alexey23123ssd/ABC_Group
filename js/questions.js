@@ -236,6 +236,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
   setTimeout(()=>{
     const questionHTML = `<h3 class=question-cont__result-title>Ваш результат рассчитан</h3>
+    <img src="/img/lightning_PNG1.svg" alt="lightningLogo" class="lightning main__section-offer__leftLogo">
     <p class=question-cont__result-info>
      <span class=question-cont__tesult-text_underlined>Вы относитесь к 3%</span>
      респондентов,чей уровень интеллекта более чем на 15 пунктов отличается от среднего в большую или меньшую сторону.
@@ -255,6 +256,7 @@ document.addEventListener("DOMContentLoaded",function(){
      <img src="/img/call.png">
      Позвонить и прослушать результат
     </button>
+    <img src="/img/lightning_PNG2.svg" alt="lightningLogo" class="lightning main__section-offer__rightLogo">
     `
    const headingText = document.querySelector(".question-cont__title")
     headingText.textContent = "ГОТОВО!"
